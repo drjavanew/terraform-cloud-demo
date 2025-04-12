@@ -12,8 +12,6 @@ filter {
     name   = "name"
     values = ["amzn2-ami-hvm*"]
   }
-
-
 }
 
 resource "aws_instance" "myec2" {
